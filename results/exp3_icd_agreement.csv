@@ -1,0 +1,2 @@
+n_admissions,flagged_by_pipeline,coded_in_icd,both,text_only,icd_only,neither,jaccard
+2000,60,675,48,12,627,1313,0.06986899563318777

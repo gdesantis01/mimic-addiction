@@ -1,0 +1,6 @@
+stage,tag,precision,recall,f1,interpretable,note
+LLM,gate recall (ADDICTION),,0.622397238105513,,yes,proportion of ADDICTION-bearing sentences forwarded to NER
+LLM,sentence-level (raw),0.008451868010800341,0.622397238105513,0.016677266419981497,recall only,"classifier detects ANY PHI category; reference covers ADDICTION only, so precision/F1 are lower bounds, not quality measures"
+NER,global,0.020905923344947737,0.0009585174929442463,0.0018329938900203669,yes,token-level metrics over all sentences; cascade means non-forwarded sentences are scored as empty predictions
+NER,B-ADDICTION,0.03571428571428571,0.0010574550581600281,0.002054091064703868,yes,
+NER,I-ADDICTION,0.0,0.0,0.0,yes,

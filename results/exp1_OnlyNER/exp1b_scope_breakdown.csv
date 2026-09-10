@@ -1,0 +1,6 @@
+partition,sentences,with_gold,with_pred
+all sentences,889887,9269,513
+in social-history scope,51265,8841,83
+out of scope,838622,428,430
+"in scope, affirmative gold",45563,4833,71
+"in scope, negated gold",5702,4008,12

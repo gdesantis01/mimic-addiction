@@ -1,0 +1,2 @@
+n_notes,n_sentences,sentences_per_note,classify_seconds,tag_seconds,total_seconds,sentences_per_second,projected_hours_full_corpus,full_corpus_notes,hardware
+2000,222988,111.494,992.3704466819763,820.8468565940857,1813.217303276062,122.97919261917065,83.55758637821913,331794,FILL IN: GPU/CPU model
