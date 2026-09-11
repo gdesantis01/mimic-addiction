@@ -161,22 +161,3 @@ yields marginally more true positives. The gate is reported as an ablation.
 | `exp2_throughput.csv` | sentences/sec and projected runtime |
 | `exp3_icd_agreement.csv` | text flags against ICD codes |
 | `run_manifest.json` | seed, versions, sizes, timings |
-
-## Citation
-
-```bibtex
-@inproceedings{vergallo2026transfers,
-  author    = {Vergallo, Roberto and De Santis, Gabriele and
-               Vetrani, Claudia and Mainetti, Luca},
-  title     = {What Transfers and What Does Not: Evaluating a Synthetically
-               Trained {GDPR}-Grounded {PHI} Detector on Real Clinical Notes},
-  booktitle = {Clinical-MIRF @ CIKM},
-  year      = {2026}
-}
-```
-
-## Acknowledgments
-
-Project IN-DEEP, no. F/350283/05/X60, CUP B69J24002350005. MIMIC data accessed
-under PhysioNet credentialed access; we thank the MIT Laboratory for
-Computational Physiology and the authors of MIMIC-SBDH.
